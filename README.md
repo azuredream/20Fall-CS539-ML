@@ -3,7 +3,7 @@ Course project of CS539. Image caption task on Flickr8k and Google Conceptual Ca
 ## Environment
 The project was moved from Google Colab, you can use jupyter notebook to run the .ipynb files. 
 ### Dependencies
-Keras, Tqdm, Numpy, PIL, Pickle
+Keras 2.4.3, Tqdm 4.41.1, Numpy 1.18.5, PIL 7.0.0
 
 ## How to run
 ### 1. Download The GCC dataset.
