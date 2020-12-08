@@ -13,16 +13,6 @@ PIL
 
 Pickle
 
-
-### Datasets
-Flicker8k(24 Captions)
-
-https://www.kaggle.com/adityajn105/flickr8k/activity
-
-Google Conceptual Caption (Randomly chose 24K)
-
-https://ai.google.com/research/ConceptualCaptions
-
 ## How to run
 ### 1. Download The GCC dataset.
 
@@ -40,23 +30,32 @@ Dataset/filter.pkl: {imgname1:captionscaptions,imgname2:captionscaptions...}
 
 The Training program reads 2 txt files first. Then keeps the rows in the filter.pkl. This mechanism helps user easly scale down or split a dataset.
 
-### Train a model
+### 3. Train a model
 Trainonxxx.ipynb
 
 Hyper-parameters can be set within the file.
 
 Run all.
 
-### Pridict
+### 4. Pridict
 PridictCCD.ipynb
 
 Set the model name and test data path.
 
 run all.
 
-###Evaluation
+### 5. Evaluation
 eval.ipynb
 
 Prepare output.csv and ref1.csv,ref2.csv...
 
 Captions in the same row are considered as the corresponding y and yhat.
+
+### Datasets
+Flicker8k(24 Captions)
+
+https://www.kaggle.com/adityajn105/flickr8k/activity
+
+Google Conceptual Caption (Randomly chose 24K)
+
+https://ai.google.com/research/ConceptualCaptions
