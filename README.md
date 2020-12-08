@@ -45,7 +45,7 @@ Prepare output.csv and ref1.csv,ref2.csv...
 Captions in the same row are considered as the corresponding y and yhat.
 
 ## Datasets
-Flicker8k(24 Captions)
+Flickr 8k(24k Captions)
 
 https://www.kaggle.com/adityajn105/flickr8k/activity
 
