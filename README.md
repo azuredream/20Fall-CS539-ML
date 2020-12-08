@@ -30,7 +30,7 @@ Hyper-parameters can be set within the file.
 
 Run all.
 
-### 4. Pridict
+### 4. Predict
 Open ./PridictCCD.ipynb
 
 Set the model name and test data path.
